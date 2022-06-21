@@ -19,6 +19,32 @@ var_dump($result_dois);
 echo "<br>";
 echo "<br>";
 
+$result_tres = $result_dois + 3.5;
+echo "Resultado exemplo três: " . $result_tres . "<br>";
+var_dump($result_tres);
+echo "<br>";
+echo "<br>";
 
+$result_quatro = 11;
+echo "Resultado exemplo quatro: " . $result_quatro  . "<br>";
+var_dump($result_quatro );
+echo "<br>";
+echo "<br>";
 
+/*conversão explicita*/
+$result_cinco = (double) $result_quatro;
+echo "Resultado exemplo cinco: " . $result_quatro  . "<br>";
+var_dump($result_cinco);
+echo "<br>";
+echo "<br>";
+
+$result_seis = 7.9;
+var_dump($result_seis);
+echo "<br>";
+echo "<br>";
+$result_sete = (int) $result_seis;
+echo "Resultado exemplo sete: " . $result_sete  . "<br>";
+var_dump($result_sete);
+echo "<br>";
+echo "<br>";
 
